@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00aaff"
+    android:weightSum="3"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+            android:src="@drawable/logoboard"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:fontFamily="sans-serif-thin"
+            android:elevation="50dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:text="Diploma Engineering Rutine 2019 \nComputer Technology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ProgressBar
+       style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:id="@+id/progressbarId"
+            android:progressTint="#00aaff"
+            android:progressBackgroundTint="#0077b3"
+            android:paddingTop="60dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

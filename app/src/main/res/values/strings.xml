@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Rutine 2019</string>
+    <string-array name="sub_name">
+        <item>Innovation and Entrepreneurship</item>
+        <item>System Desigh and Analysis</item>
+        <item>Network Administration and Services</item>
+        <item>E-Commerce and CMS</item>
+        <item>Cyber Security System</item>
+        <item>Advanced Database Management System</item>
+        <item>Network and Data Center Operation</item>
+
+
+    </string-array>
+
+
+</resources>
